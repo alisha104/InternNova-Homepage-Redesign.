@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Explore internship opportunities, practical projects, mentorship and career-focused learning with InternNova.">
+  <title>InternNova | Learn Skills. Build Your Future.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="InternNova home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M8 28L17 19L23 24L33 12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M25 12H33V20" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="8" cy="28" r="3" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-name">Intern<span>Nova</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Internships</a>
+        <a href="#domains">Domains</a>
+        <a href="#learning">Learning</a>
+        <a href="#faq">FAQs</a>
+        <a class="button button-small nav-cta" href="#get-started">Get Started <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero section-anchor" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Your next chapter starts here</div>
+          <h1>Turn your potential into <span class="gradient-text">real-world skills.</span></h1>
+          <p class="hero-description">
+            Explore opportunities to learn, build practical projects and take confident steps toward your future career with InternNova.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#programs">Explore Internships <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#about"><span class="play-icon" aria-hidden="true">▶</span> Discover InternNova</a>
+          </div>
+
+          <div class="hero-note">
+            <span class="check-circle" aria-hidden="true">✓</span>
+            Learn by doing. Grow with purpose.
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Illustration of a learning dashboard">
+          <div class="art-glow"></div>
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+
+          <div class="floating-note note-top">
+            <span class="note-icon note-purple">✦</span>
+            <span><strong>Keep learning</strong><small>One step at a time</small></span>
+          </div>
+
+          <div class="learning-card">
+            <div class="learning-card-head">
+              <div>
+                <span class="tiny-label">YOUR LEARNING SPACE</span>
+                <h3>Build your future</h3>
+              </div>
+              <span class="card-menu" aria-hidden="true">•••</span>
+            </div>
+
+            <div class="welcome-banner">
+              <div>
+                <span>READY TO GROW?</span>
+                <h4>Make today count.</h4>
+                <p>Learn something. Build something.</p>
+              </div>
+              <div class="banner-art" aria-hidden="true">
+                <svg viewBox="0 0 100 100" fill="none">
+                  <circle cx="50" cy="50" r="40" fill="#ffffff" fill-opacity=".13"/>
+                  <path d="M24 64L43 44L56 55L78 30" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M63 30H78V45" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="card-section-title">
+              <strong>Your growth toolkit</strong><span>03 areas</span>
+            </div>
+
+            <div class="toolkit-item">
+              <span class="toolkit-icon icon-violet">⌘</span>
+              <span class="toolkit-copy"><strong>Practical skills</strong><small>Learn through projects</small></span>
+              <span class="item-arrow">↗</span>
+            </div>
+            <div class="toolkit-item">
+              <span class="toolkit-icon icon-mint">◎</span>
+              <span class="toolkit-copy"><strong>Career direction</strong><small>Explore your interests</small></span>
+              <span class="item-arrow">↗</span>
+            </div>
+            <div class="toolkit-item">
+              <span class="toolkit-icon icon-peach">✧</span>
+              <span class="toolkit-copy"><strong>Personal growth</strong><small>Build with confidence</small></span>
+              <span class="item-arrow">↗</span>
+            </div>
+          </div>
+
+          <div class="floating-note note-bottom">
+            <span class="success-icon" aria-hidden="true">✓</span>
+            <span><strong>Progress over perfection</strong><small>Every step matters</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-bottom">
+        <span>YOUR JOURNEY, YOUR PACE</span>
+        <div class="hero-bottom-points">
+          <span><i>01</i> Discover</span>
+          <span><i>02</i> Learn</span>
+          <span><i>03</i> Create</span>
+          <span><i>04</i> Grow</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-anchor" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <div class="about-visual-main">
+            <span class="visual-label">THE INTERNNOVA APPROACH</span>
+            <div class="growth-graphic" aria-hidden="true">
+              <div class="growth-circle circle-a"></div>
+              <div class="growth-circle circle-b"></div>
+              <div class="growth-line"></div>
+              <div class="growth-node node-a">01</div>
+              <div class="growth-node node-b">02</div>
+              <div class="growth-node node-c">03</div>
+              <div class="growth-star">✦</div>
+            </div>
+            <h3>Small steps.<br><span>Meaningful progress.</span></h3>
+            <p>Build knowledge, confidence and practical experience.</p>
+          </div>
+          <div class="about-sticker"><span>✦</span><strong>Grow with<br>purpose</strong></div>
+        </div>
+
+        <div class="about-copy reveal">
+          <span class="section-kicker">ABOUT INTERNNOVA</span>
+          <h2>A place to explore, <span class="gradient-text">learn and become.</span></h2>
+          <p class="section-description">
+            Starting a career can feel overwhelming. InternNova aims to make the journey easier by connecting learning with practical experience and opportunities to explore professional interests.
+          </p>
+          <p class="body-copy">
+            Whether you are discovering a new field or developing existing skills, focus on learning consistently, practising what you learn and building work you can share.
+          </p>
+
+          <div class="value-list">
+            <div><span class="value-check">✓</span><span><strong>Practical learning</strong><small>Turn concepts into projects and experience.</small></span></div>
+            <div><span class="value-check">✓</span><span><strong>Career exploration</strong><small>Discover fields that match your interests.</small></span></div>
+            <div><span class="value-check">✓</span><span><strong>Continuous growth</strong><small>Develop skills one step at a time.</small></span></div>
+          </div>
+          <a class="text-link" href="#learning">Explore our approach <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="section section-soft section-anchor" id="programs">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">OPPORTUNITIES TO GROW</span>
+            <h2>Find a path that <span class="gradient-text">excites you.</span></h2>
+          </div>
+          <p class="section-description">Explore fields, strengthen your skills and start creating work that reflects what you can do.</p>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal">
+            <div class="program-card-top"><span class="program-icon purple-icon">⌘</span><span class="program-number">01</span></div>
+            <span class="program-category">TECHNOLOGY</span>
+            <h3>Web Development</h3>
+            <p>Learn how websites are structured, styled and brought to life with interactive features.</p>
+            <div class="tag-list"><span>HTML & CSS</span><span>JavaScript</span></div>
+            <a class="text-link" href="#get-started">Explore this field <span>→</span></a>
+          </article>
+
+          <article class="program-card reveal">
+            <div class="program-card-top"><span class="program-icon mint-icon">✳</span><span class="program-number">02</span></div>
+            <span class="program-category">CREATIVE</span>
+            <h3>UI/UX Design</h3>
+            <p>Explore user research, visual design and the principles behind useful digital experiences.</p>
+            <div class="tag-list"><span>Wireframes</span><span>Prototypes</span></div>
+            <a class="text-link" href="#get-started">Explore this field <span>→</span></a>
+          </article>
+
+          <article class="program-card reveal">
+            <div class="program-card-top"><span class="program-icon peach-icon">▤</span><span class="program-number">03</span></div>
+            <span class="program-category">INSIGHTS</span>
+            <h3>Data Analytics</h3>
+            <p>Discover how to organise information, identify patterns and communicate useful insights.</p>
+            <div class="tag-list"><span>Data Skills</span><span>Visualisation</span></div>
+            <a class="text-link" href="#get-started">Explore this field <span>→</span></a>
+          </article>
+
+          <article class="program-card reveal">
+            <div class="program-card-top"><span class="program-icon blue-icon">⌁</span><span class="program-number">04</span></div>
+            <span class="program-category">DIGITAL</span>
+            <h3>Digital Marketing</h3>
+            <p>Understand content, digital channels and how brands connect with their audiences.</p>
+            <div class="tag-list"><span>Content</span><span>Strategy</span></div>
+            <a class="text-link" href="#get-started">Explore this field <span>→</span></a>
+          </article>
+
+          <article class="program-card reveal">
+            <div class="program-card-top"><span class="program-icon yellow-icon">✧</span><span class="program-number">05</span></div>
+            <span class="program-category">INTELLIGENCE</span>
+            <h3>Artificial Intelligence</h3>
+            <p>Explore AI concepts, responsible use and the technology shaping modern digital tools.</p>
+            <div class="tag-list"><span>AI Concepts</span><span>Innovation</span></div>
+            <a class="text-link" href="#get-started">Explore this field <span>→</span></a>
+          </article>
+
+          <article class="program-card program-card-featured reveal">
+            <div class="program-card-top"><span class="program-icon white-icon">↗</span><span class="program-number">06</span></div>
+            <span class="program-category">YOUR NEXT STEP</span>
+            <h3>Discover your potential.</h3>
+            <p>Choose a field that interests you and take the first step towards developing new skills.</p>
+            <a class="button button-light" href="#get-started">Start exploring <span>→</span></a>
+          </article>
+        </div>
+        <p class="disclaimer">Program availability, eligibility and application details should be confirmed through InternNova's official channels.</p>
+      </div>
+    </section>
+
+    <!-- Domains -->
+    <section class="section section-anchor" id="domains">
+      <div class="container domains-layout">
+        <div class="domains-copy reveal">
+          <span class="section-kicker">EXPLORE YOUR INTERESTS</span>
+          <h2>Different interests. <span class="gradient-text">New possibilities.</span></h2>
+          <p class="section-description">Technology is only one part of the digital world. Explore a range of fields and find the skills you want to develop.</p>
+          <a class="button button-primary" href="#programs">Browse learning paths <span>→</span></a>
+        </div>
+
+        <div class="domain-grid reveal">
+          <div class="domain-item"><span class="domain-symbol purple-icon">⌘</span><strong>Development</strong><small>Build digital products</small></div>
+          <div class="domain-item"><span class="domain-symbol mint-icon">✳</span><strong>Design</strong><small>Create user experiences</small></div>
+          <div class="domain-item"><span class="domain-symbol peach-icon">▤</span><strong>Data & Analytics</strong><small>Understand information</small></div>
+          <div class="domain-item"><span class="domain-symbol blue-icon">◈</span><strong>Artificial Intelligence</strong><small>Explore emerging tools</small></div>
+          <div class="domain-item"><span class="domain-symbol yellow-icon">◎</span><strong>Digital Marketing</strong><small>Connect with audiences</small></div>
+          <div class="domain-item"><span class="domain-symbol pink-icon">✧</span><strong>Business Skills</strong><small>Build professional habits</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="section section-dark section-anchor" id="why-us">
+      <div class="container">
+        <div class="dark-heading reveal">
+          <span class="section-kicker kicker-light">WHY INTERNNOVA</span>
+          <h2>Make learning <span class="light-gradient">work for you.</span></h2>
+          <p>Build a stronger foundation for your next academic or professional step.</p>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="benefit-card reveal">
+            <span class="benefit-icon">✦</span><span class="benefit-index">01 / LEARN</span>
+            <h3>Learn with purpose</h3>
+            <p>Focus on knowledge and skills that connect with your interests and goals.</p>
+          </article>
+          <article class="benefit-card reveal">
+            <span class="benefit-icon">⌘</span><span class="benefit-index">02 / BUILD</span>
+            <h3>Practise by doing</h3>
+            <p>Use personal and guided projects to put new concepts into practice.</p>
+          </article>
+          <article class="benefit-card reveal">
+            <span class="benefit-icon">↗</span><span class="benefit-index">03 / GROW</span>
+            <h3>Build confidence</h3>
+            <p>Reflect on your progress, improve your work and develop professional habits.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning and mentorship -->
+    <section class="section section-anchor" id="learning">
+      <div class="container learning-layout">
+        <div class="learning-copy reveal">
+          <span class="section-kicker">LEARNING & MENTORSHIP</span>
+          <h2>Knowledge becomes powerful when you <span class="gradient-text">put it into practice.</span></h2>
+          <p class="section-description">A thoughtful learning journey combines understanding, practice, feedback and reflection.</p>
+
+          <div class="learning-steps">
+            <div class="learning-step"><span>01</span><div><h3>Understand the basics</h3><p>Build a foundation before moving to more complex concepts.</p></div></div>
+            <div class="learning-step"><span>02</span><div><h3>Apply what you learn</h3><p>Work on practical tasks and projects that demonstrate your skills.</p></div></div>
+            <div class="learning-step"><span>03</span><div><h3>Review and improve</h3><p>Use feedback and reflection to strengthen your work.</p></div></div>
+          </div>
+        </div>
+
+        <div class="learning-visual reveal">
+          <div class="learning-visual-inner">
+            <div class="visual-topline"><span class="tiny-label">YOUR DEVELOPMENT JOURNEY</span><span class="sparkle">✦</span></div>
+            <h3>From curious<br>to <span>capable.</span></h3>
+            <p>Keep learning. Keep building. Keep moving forward.</p>
+            <div class="journey-visual">
+              <div class="journey-track"></div>
+              <div class="journey-point"><span>01</span><small>Learn</small></div>
+              <div class="journey-point"><span>02</span><small>Practise</small></div>
+              <div class="journey-point"><span>03</span><small>Improve</small></div>
+              <div class="journey-point"><span>04</span><small>Grow</small></div>
+            </div>
+            <div class="visual-footer"><span class="visual-check">✓</span> Every project is a chance to improve.</div>
+          </div>
+          <div class="decorative-orb orb-a"></div>
+          <div class="decorative-orb orb-b"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workshops -->
+    <section class="section section-soft section-anchor" id="workshops">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="section-kicker">KEEP EXPLORING</span><h2>Make space for <span class="gradient-text">new ideas.</span></h2></div>
+          <p class="section-description">Workshops and learning sessions can help you explore new concepts, practise skills and connect ideas.</p>
+        </div>
+
+        <div class="workshop-grid">
+          <article class="workshop-card reveal">
+            <div class="workshop-art workshop-art-one"><span class="workshop-art-icon">⌘</span><span class="art-caption">IDEA → INTERFACE</span></div>
+            <div class="workshop-content"><span class="workshop-type">DESIGN & TECHNOLOGY</span><h3>Designing better digital experiences</h3><p>Explore the relationship between user needs, interface design and usability.</p><a class="text-link" href="#get-started">Explore opportunities <span>→</span></a></div>
+          </article>
+          <article class="workshop-card reveal">
+            <div class="workshop-art workshop-art-two"><span class="workshop-art-icon">✳</span><span class="art-caption">THINK · TEST · IMPROVE</span></div>
+            <div class="workshop-content"><span class="workshop-type">PRACTICAL LEARNING</span><h3>Turning ideas into projects</h3><p>Learn how to break a big idea into manageable tasks and a clear plan.</p><a class="text-link" href="#get-started">Explore opportunities <span>→</span></a></div>
+          </article>
+          <article class="workshop-card reveal">
+            <div class="workshop-art workshop-art-three"><span class="workshop-art-icon">↗</span><span class="art-caption">BUILD YOUR NEXT STEP</span></div>
+            <div class="workshop-content"><span class="workshop-type">CAREER DEVELOPMENT</span><h3>Preparing for your career journey</h3><p>Discover ways to organise your portfolio and communicate your skills.</p><a class="text-link" href="#get-started">Explore opportunities <span>→</span></a></div>
+          </article>
+        </div>
+        <p class="disclaimer">The cards above illustrate possible learning topics, not confirmed upcoming events. Check official announcements for current workshops.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-anchor" id="testimonials">
+      <div class="container">
+        <div class="testimonial-heading reveal">
+          <span class="section-kicker">THE LEARNING EXPERIENCE</span>
+          <h2>Your growth story <span class="gradient-text">starts with you.</span></h2>
+          <p class="section-description">Every learner has different goals. The important part is making progress, learning from challenges and continuing to improve.</p>
+        </div>
+
+        <div class="reflection-grid">
+          <article class="reflection-card reveal"><span class="quote-mark">“</span><h3>Learn with curiosity.</h3><p>Ask questions, explore unfamiliar ideas and give yourself room to learn.</p><span class="reflection-label">A LEARNER'S MINDSET</span></article>
+          <article class="reflection-card reflection-featured reveal"><span class="quote-mark">✦</span><h3>Build with intention.</h3><p>Choose projects that help you practise a skill and show what you understand.</p><span class="reflection-label">A PROJECT-BASED APPROACH</span></article>
+          <article class="reflection-card reveal"><span class="quote-mark">↗</span><h3>Grow with consistency.</h3><p>Small improvements over time can help you develop confidence and capability.</p><span class="reflection-label">A CONTINUOUS JOURNEY</span></article>
+        </div>
+        <p class="disclaimer">These are learning principles, not quoted student testimonials. Add verified intern reviews here only when authentic testimonials and permission are available.</p>
+      </div>
+    </section>
+
+    <!-- Growth highlights -->
+    <section class="section section-soft" id="highlights">
+      <div class="container highlight-layout reveal">
+        <div><span class="section-kicker">YOUR POTENTIAL, IN FOCUS</span><h2>Measure growth by what <span class="gradient-text">you learn and create.</span></h2></div>
+        <div class="highlight-grid">
+          <div class="highlight-item"><span class="highlight-icon">⌘</span><strong>Practical projects</strong><p>Turn knowledge into visible work.</p></div>
+          <div class="highlight-item"><span class="highlight-icon">✦</span><strong>New skills</strong><p>Build your knowledge step by step.</p></div>
+          <div class="highlight-item"><span class="highlight-icon">◎</span><strong>Career readiness</strong><p>Practise professional habits.</p></div>
+          <div class="highlight-item"><span class="highlight-icon">↗</span><strong>Personal progress</strong><p>Reflect, improve and keep growing.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-anchor" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro reveal">
+          <span class="section-kicker">GOT QUESTIONS?</span>
+          <h2>Let's clear things <span class="gradient-text">up.</span></h2>
+          <p class="section-description">Here are a few things to consider before exploring an internship opportunity.</p>
+          <div class="faq-contact"><span>Still have questions?</span><a href="#get-started">Get in touch <span>→</span></a></div>
+        </div>
+
+        <div class="faq-list reveal">
+          <article class="faq-item active">
+            <h3><button class="faq-question" aria-expanded="true" aria-controls="faq-answer-1">What is InternNova? <span class="faq-symbol">−</span></button></h3>
+            <div class="faq-answer" id="faq-answer-1"><p>InternNova is an internship and learning platform. Visit its official website to confirm current programs, eligibility and available opportunities.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">How do I explore internship opportunities? <span class="faq-symbol">+</span></button></h3>
+            <div class="faq-answer" id="faq-answer-2" hidden><p>Review the available opportunities on the official InternNova website, read the eligibility requirements and follow the stated application instructions.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">Do I need experience before applying? <span class="faq-symbol">+</span></button></h3>
+            <div class="faq-answer" id="faq-answer-3" hidden><p>Requirements vary by opportunity. Read each program's criteria carefully to understand whether prior experience or specific skills are required.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">Are programs or certificates guaranteed? <span class="faq-symbol">+</span></button></h3>
+            <div class="faq-answer" id="faq-answer-4" hidden><p>Program terms, completion criteria and certificate eligibility can vary. Confirm the exact details with InternNova before applying.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">Where can I find official updates? <span class="faq-symbol">+</span></button></h3>
+            <div class="faq-answer" id="faq-answer-5" hidden><p>Use the official InternNova website and its verified communication channels for current announcements and contact information.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta-section section-anchor" id="get-started">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <div class="cta-decoration cta-decoration-one"></div>
+          <div class="cta-decoration cta-decoration-two"></div>
+          <div class="cta-content">
+            <span class="cta-kicker"><span></span> YOUR NEXT CHAPTER</span>
+            <h2>Ready to take the <span>next step?</span></h2>
+            <p>Explore your interests, discover learning opportunities and start building your future one step at a time.</p>
+            <div class="cta-actions">
+              <a class="button button-light" href="https://internnova.co.in/" target="_blank" rel="noopener noreferrer">Visit Official InternNova <span>↗</span></a>
+              <a class="cta-text-link" href="#programs">Explore learning paths <span>→</span></a>
+            </div>
+          </div>
+          <div class="cta-symbol" aria-hidden="true"><span>✦</span><div></div><i></i></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand-column">
+          <a class="brand footer-brand" href="#home" aria-label="InternNova home">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none">
+                <path d="M8 28L17 19L23 24L33 12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 12H33V20" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="8" cy="28" r="3" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="brand-name">Intern<span>Nova</span></span>
+          </a>
+          <p>A learning-focused concept for a homepage redesign centred on practical skills, career exploration and personal growth.</p>
+        </div>
+
+        <div class="footer-column"><h3>Explore</h3><a href="#about">About</a><a href="#programs">Internships</a><a href="#domains">Domains</a><a href="#learning">Learning</a></div>
+        <div class="footer-column"><h3>Discover</h3><a href="#why-us">Why InternNova</a><a href="#workshops">Workshops</a><a href="#testimonials">Learner mindset</a><a href="#faq">FAQs</a></div>
+        <div class="footer-column"><h3>Official website</h3><a href="https://internnova.co.in/" target="_blank" rel="noopener noreferrer">InternNova.co.in ↗</a><a href="#get-started">Get started</a></div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> InternNova Homepage Redesign.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+      <p class="project-note">Independent educational redesign concept. Not the official InternNova website. Verify company information and opportunities through official channels.</p>
+    </div>
+  </footer>
+</body>
+</html>
